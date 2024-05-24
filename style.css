@@ -2,6 +2,8 @@ body {
   font-family: monospace;
   margin: 0;
   padding: 0;
+  
+ 
 
 
 }
@@ -71,7 +73,7 @@ input[type=radio]:not(:checked)+section {
 
 }
 .container-video {
- position: absolute;
+ position: relative;
   z-index: 1;
   color: white;
   top: 50%;
@@ -137,7 +139,6 @@ h4 {
 }
 
 main {
-  position: relative;
   width: 200px;
   height: 650px;
   display: block;
@@ -265,9 +266,9 @@ main {
 /*Contactos*/
 .bckcont {
   display: flex;
-  position: absolute;
+  position: relative;
   right: 22%;
-  top: 300px;
+  top: 100px;
   width: 50%;
   height: 350px;
   padding-left: 50px;
